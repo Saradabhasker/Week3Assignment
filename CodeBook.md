@@ -1,29 +1,29 @@
- a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md
+Code Book
 
-##This file describes the variables, the data, and any transformations or work was performed for the project
+This file describes the variables, the data, and any transformations or work was performed for the project
 
-## The data for the project was downloaded from the folder
+The data for the project was downloaded from the folder
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-## The data used for the analysis includes the following
+####The data used for the analysis includes the following
 
-### Measurements file - X_test.txt, x_train_txt
-### Activity files - y_text.txt, y_train.txt
-### Subject files - subject_test.txt, subject_train.txt
+* Measurements file - X_test.txt, x_train_txt
+* Activity files - y_text.txt, y_train.txt
+* Subject files - subject_test.txt, subject_train.txt
 
 
-## Lookup files to obtain field descriptions include
-###Activity_labels.txt
-###Features.txt
+####Lookup files to obtain field descriptions include
+* Activity_labels.txt
+* features.txt
 
-##Documentation files used for understaing the data icludes
-###features_info.txt
-###README.txt
+####Documentation files used for understaing the data icludes
+* features_info.txt
+* README.txt
 
-##The features.txt file gives the names of the 561 variables measured. The names of the fields measuring mean and std can be easily filtered out from this file.
+The features.txt file gives the names of the 561 variables measured. The names of the fields measuring mean and std can be easily filtered out from this file.
 
-##The preparation and transformation of data for this project has been quite straightforward. The seps has been implemented in the projct is mentioned in README.md file.
+The preparation and transformation of data for this project has been quite straightforward. The steps implemented in the projct is mentioned in README.md file.
 
 The input data in test file has 2947 rows and 561 columns
 The inout data in train file has 7352 rows and 561 columns
